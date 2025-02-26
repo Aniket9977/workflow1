@@ -22,5 +22,36 @@ This project is a Python script that generates construction work orders in Markd
 ## Installation
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/yourusername/construction-work-order-generator.git
+   git clone https://github.com/Aniket9977/workflow1.git
    cd construction-work-order-generator
+
+
+2.**Install Dependencies**:
+   ```bash
+    pip install langchain openai python-dotenv langsmith
+
+
+3. **Set Up Environment Variables**:
+  Create a .env file in the project root directory:
+ ```bash
+    OPENAI_API=your-openai-api-key
+    LANGCHAIN_API=your-langsmith-api-key
+  
+Replace your-openai-api-key and your-langsmith-api-key with your actual keys.
+
+
+Usage
+Run the Script:
+```bash
+    python wf.py
+4. **Follow Prompts**:
+ ```bash
+  Enter the company name when prompted.
+  Enter the contractor name when prompted.
+
+  
+Output:
+The generated work order is printed to the console.
+It’s also saved as work_order.md in the project directory.
+View Tracing:
+Go to LangSmith, log in, and navigate to the "WorkOrderGenerator" project to see the execution flow.
