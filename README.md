@@ -47,13 +47,14 @@ Usage
 Run the Script:
 ```bash
     python wf.py
-4. **Follow Prompts**:
- ```bash
+  ```
+## Follow Prompts:
   Enter the company name when prompted.
   Enter the contractor name when prompted.
 
 
-Output:
+## Output:
+
 The generated work order is printed to the console.
 It’s also saved as work_order.md in the project directory.
 View Tracing:
